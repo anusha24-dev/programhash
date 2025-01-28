@@ -1,0 +1,43 @@
+java reverse program
+
+import java.io.*;
+import java.util.*;
+public class reverse {
+	public static void main(String args[]) 
+	{
+		String input="anusha";
+        //char[]try1=input.toCharArray();
+        for(int i=input.length-1;i>=0;i--)
+        {
+        	System.out.print(input[i]);
+        }
+		
+	}
+}
+
+
+replace using substring
+
+import java.lang.*;
+import java.io.*;
+
+public class simple 
+	{
+		public static void main(String args[]) {
+			String str="hellojava";
+			String result=str.substring(0,5)+" "+str.substring(5);
+			System.out.print(result);
+		}
+	}
+
+
+replace
+
+public class ReplaceStringExample {
+	
+	    public static void main(String[] args) {
+	        String original ="hiithisisanusha";
+	        String result=original.replace("hiithisisanusha",  "hii this is anusha");
+	        System.out.println(result);
+	}
+}

@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(back.jpeg);
+    background-position: center;
+    background-size:top;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.domain
+
+{
+    background-color: blue;
+    text-align: center;
+}
+.domain ul{
+    display: inline-flex;
+    list-style: none;
+    color: azure;
+}
+.domain ul li{
+    width: 130px;
+    margin: 16px;
+    padding: 16px;
+
+}
+.domain ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.active, .domain ul li:hover
+{
+    background:hotpink;
+    border-radius: 3pxx;
+}
+.subdomain-1
+{
+    display: none;
+
+}
